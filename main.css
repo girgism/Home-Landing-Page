@@ -1,0 +1,131 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#main-R {
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
+/* ----------- Loader ----------- 
+
+#loader {
+    max-width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 150em;
+    transform-origin: bottom center;
+    animation: rotate 3s linear infinite;
+}
+
+.Loading {
+    display: inline-block;
+    background-color: rgb(16, 10, 41);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: scale(0);
+    animation: grow 1.5s linear infinite;
+    margin: -10px;
+}
+
+.Loading:nth-child(2) {
+    background-color: rgb(66, 35, 149);
+    animation-delay: 0.75s;
+}
+.Loading:nth-child(3) {
+    background-color: rgb(27, 19, 48);
+    animation-delay: 1s;
+}
+.Loading:nth-child(4) {
+    background-color: rgb(172, 149, 233);
+    animation-delay: 1.25s;
+}
+.Loading:nth-child() {
+    background-color: rgb(27, 19, 48);
+    animation-delay: 1s;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes grow {
+    50% {
+        transform: scale(1);
+    }
+}
+*/
+.row-header{
+    background-color: rgb(238, 242, 245);
+}
+
+.span-h{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.icon-i{
+    font-size: 1.6em;
+    padding: .4em;
+}
+
+.i-box:hover .icon-i{
+    color: rgb(96, 183, 233);
+}
+
+.carosel-img img
+{
+    height: 45em;
+    width: 100%;
+   
+}
+
+.carosel-caption 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.carosel-caption-left 
+{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.text-b-info{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid rgb(194, 225, 233);
+}
+.container-bd{
+    background-color: rgb(230 222 222 / 13%);
+    border-radius: 1em;
+    padding: .6em;
+}
+
+.footer-bd{
+    background-color: rgb(0 0 0 / 80%);
+}
+
+.footer-txt i{
+    padding: .5em;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5em;
+}
+
+.footer-txt a{
+    text-decoration: none;
+}
+.footer-txt a:hover
+{
+    color: rgb(90, 208, 255);
+    font-size: 1.4em;
+}
